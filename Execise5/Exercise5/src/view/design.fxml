@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" text="AVAILABLE DRINKS" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="controller.drinkController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="374.0" fitWidth="600.0" layoutX="-1.0">
+               <image>
+                  <Image url="@../../../../Downloads/ref.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="183.0" fitWidth="240.0" layoutX="75.0" layoutY="211.0">
+               <image>
+                  <Image url="@../../../../Downloads/POCARI.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="169.0" fitWidth="200.0" layoutX="390.0" layoutY="44.0">
+               <image>
+                  <Image url="@../../../../Downloads/NESTEA.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="168.0" fitWidth="200.0" layoutX="16.0" layoutY="51.0">
+               <image>
+                  <Image url="@../../../../Downloads/VITAMILK.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="233.0" fitWidth="351.0" layoutX="116.0">
+               <image>
+                  <Image url="@../../../../Downloads/whey.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="174.0" fitWidth="200.0" layoutX="325.0" layoutY="213.0">
+               <image>
+                  <Image url="@../../../../Downloads/MILO.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="vita" layoutX="16.0" layoutY="175.0" mnemonicParsing="false" onAction="#showInfo" text="Vitamilk" />
+            <Button fx:id="whey" layoutX="268.0" layoutY="175.0" mnemonicParsing="false" onAction="#showInfo" text="Whey" />
+            <Button fx:id="nestea" layoutX="525.0" layoutY="175.0" mnemonicParsing="false" onAction="#showInfo" text="Nestea" />
+            <Button fx:id="water" layoutX="105.0" layoutY="325.0" mnemonicParsing="false" onAction="#showInfo" text="Water" />
+            <Button fx:id="milo" layoutX="465.0" layoutY="325.0" mnemonicParsing="false" onAction="#showInfo" text="Milo" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>
